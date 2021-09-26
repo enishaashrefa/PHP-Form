@@ -1,0 +1,42 @@
+
+*{
+    margin: auto;
+    padding: 0px;
+}
+.bg-img, h1{
+    text-align: center;
+    
+
+}
+
+input{
+    
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}  
+label {
+    display: inline-block;
+    width: 80px;
+    
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("\istockphoto-517188688-612x612.jpg");
+  
+    /* Control the height of the image */
+    min-height: 1000px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
